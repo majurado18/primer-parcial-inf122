@@ -1,0 +1,97 @@
+:root{
+    --white:#ffff;
+    --black:#0000;
+    --light-blue:#0C151D;
+    --yellow:#FFFF00;
+    --sm:14px;
+    --md:20px;
+    --lg:60px;
+
+}
+.cajaUnoo{
+    display: grid;
+    place-items: center;  
+    background-color: var(--light-blue);
+}
+
+.im img{
+    height: 170px;
+    width: 170px;
+    border-radius: 192%;
+    border: 50px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28px;
+}
+.cajados{
+    color: var(--white);
+    text-align:center;
+    font-size: x-large;
+    margin: 10px 0px 10px 0px;
+}
+.cajatres{
+    color: var(--white);
+    text-align:center;
+    font-size: x-large;
+    margin: 5px 0px 5px 0px;
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cajaDoss{
+    color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cajaCuatroo{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cajaTresuno {
+    width: 50px;
+    height: 60px;
+    background-color: var(--yellow);
+}
+.cajaTresdos{
+    width: 50px;
+    height: 60px;
+    display: grid;
+    text-align: center;
+}
+.cajaTress input{
+    height: 20px;
+    width: 400px;
+}
+.cajaTress{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+.imf{
+    text-align: center;
+}
+.imf img{
+    height: 170px;
+    width: 170px;
+    background-color: var(--white);
+    display: flex;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.cajaTresuno{
+    width: 10px;
+    height: 10px;
+}
+
+@media(max-width: 720px){
+    .cajaUnoo{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 10px 50px 10px;
+    }
+}
